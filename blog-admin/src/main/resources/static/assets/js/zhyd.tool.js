@@ -116,7 +116,7 @@
                             var $box = $(".list-file");
                             var tpl = '{{#list}}<li class="material-item" data-imgUrl="{{fullFilePath}}"><div style="position: relative;">' +
                                 '<div class="selected-mask mask-xs"><div class="inner"></div><div class="icon"></div></div>' +
-                                '<img class="lazy-img" data-original="{{fullFilePath}}" alt="image"></div></li>{{/list}}{{^list}}<li>素材库为空</li>{{/list}}';
+                                '<img class="lazy-img" src="{{fullFilePath}}" alt="image"></div></li>{{/list}}{{^list}}<li>素材库为空</li>{{/list}}';
                             var html = Mustache.render(tpl, json);
                             var pageTpl = '{{#data}}<li class="material-page">\n' +
                                 '    <div class="material-page-body">\n' +
@@ -134,14 +134,14 @@
                             html += Mustache.render(pageTpl, {data: json});
                             $box.html(html);
 
-                            // 图片懒加载
+                            /*// 图片懒加载
                             var $lazyImg = $("img.lazy-img");
                             $lazyImg.lazyload({
                                 placeholder : appConfig.cmsPath + "/assets/images/loading.gif",
                                 effect: "fadeIn",
                                 threshold: 100
                             });
-                            $lazyImg.trigger("sporty");
+                            $lazyImg.trigger("sporty");*/
 
                             // 绑定分页点击事件
                             $(".material-pagination").unbind("click").click(function () {
