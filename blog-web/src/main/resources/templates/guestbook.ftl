@@ -1,7 +1,7 @@
 <#include "include/macros.ftl">
 <@compress single_line=true>
 <@header title="留言板 | ${config.siteName}"
-    keywords="${config.siteName},留言板,原创博客留言,个人原创网站,个人技术博客"
+    keywords="${config.siteName},留言板,原创博客留言,个人网站,博客"
     description="我的留言板,欢迎给我的个人原创博客留言 - ${config.siteName}"
     canonical="/guestbook" hasEditor=true>
 </@header>

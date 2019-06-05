@@ -18,12 +18,11 @@
                     <div class="clear"></div>
                     <ul class="list-unstyled list-inline search-hot">
                         <li><strong style="position: relative;top: 2px;color: #999999;">热门搜索：</strong></li>
-                        <li><a class="pointer" rel="external nofollow"><span class="label label-default">Java</span></a></li>
-                        <li><a class="pointer" rel="external nofollow"><span class="label label-primary">Springboot</span></a></li>
-                        <li><a class="pointer" rel="external nofollow"><span class="label label-success">Linux</span></a></li>
-                        <li><a class="pointer" rel="external nofollow"><span class="label label-info">Maven</span></a></li>
-                        <li><a class="pointer" rel="external nofollow"><span class="label label-warning">Bootstrap</span></a></li>
-                        <li><a class="pointer" rel="external nofollow"><span class="label label-danger">阿里云</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-default">情感</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-primary">生活</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-success">计划</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-info">工作</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-warning">其他</span></a></li>
                     </ul>
                 </form>
             </div>
@@ -109,7 +108,7 @@
                 <p>
                     <ul class="list-unstyled list-inline">
                         <li>其他连接：</li>
-                        <li><a href="http://shang.qq.com/wpa/qunwpa?idkey=9f986e9b33b1de953e1ef9a96cdeec990affd0ac7855e00ff103514de2027b60" target="_blank" title="加入我的QQ交流群：190886500" data-toggle="tooltip" data-placement="bottom" rel="external nofollow"><i class="fa fa-qq"></i>QQ交流群</a></li>
+                        <li><a href="http://shang.qq.com/wpa/qunwpa?idkey=9f986e9b33b1de953e1ef9a96cdeec990affd0ac7855e00ff103514de2027b60" target="_blank" title="加入我的QQ交流群：791836496" data-toggle="tooltip" data-placement="bottom" rel="external nofollow"><i class="fa fa-qq"></i>QQ交流群</a></li>
                         <li><a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db" target="_blank" title="史上最全的阿里云优惠券" data-toggle="tooltip" data-placement="bottom" rel="external nofollow"><i class="fa fa-fire fa-fw"></i>阿里云券</a></li>
                         <li><a href="https://mi.aliyun.com/shop/19462" target="_blank" title="闲置域名出售" data-toggle="tooltip" data-placement="bottom" rel="external nofollow"><i class="fa fa-globe fa-fw fa-spin"></i>域名出售</a></li>
                         <li><a href="${config.siteUrl}/sitemap.html" target="_blank" title="网站地图" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-map-o fa-fw"></i>网站地图</a></li>
@@ -119,8 +118,8 @@
                         <li><a href="${config.siteUrl}/disclaimer" title="免责声明" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-file-o fa-fw"></i>免责声明</a></li>
                     </ul>
                 </p>
-                <p>托管于<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db" target="_blank" title="阿里云-为了无法计算的价值" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">阿里云</a> & <a href="https://portal.qiniu.com/signup?code=3l8yx2v0f21ci" target="_blank" title="七牛云-国内领先的企业级云服务商" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">七牛云</a> · <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="查看备案信息" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">鲁ICP备17054970号-1</a></p>
-                <p>Copyright &copy; ${.now?string("yyyy")} zhyd.me All Rights Reserved | Powered by <a href="https://gitee.com/yadong.zhang/DBlog" title="OneBlog是一款简洁美观、自适应的Java博客系统..." data-toggle="tooltip" data-placement="right" target="_blank">OneBlog</a>  </p>
+                <p>托管于<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db" target="_blank" title="阿里云-为了无法计算的价值" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">阿里云</a> & <a href="https://portal.qiniu.com/signup?code=3l8yx2v0f21ci" target="_blank" title="七牛云-国内领先的企业级云服务商" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">七牛云</a> · <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="查看备案信息" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">粤ICP备19016221号</a></p>
+                <p>Copyright &copy; ${.now?string("yyyy")} eleven All Rights Reserved | Powered by <a href="http://www.tocj1314.com" title="eleven博客..." data-toggle="tooltip" data-placement="right" target="_blank">Eleven Blog</a>  </p>
                 <#if url?exists && (url == "index")>
                     <div class="inline external-links">
                         <a>友情链接：</a>

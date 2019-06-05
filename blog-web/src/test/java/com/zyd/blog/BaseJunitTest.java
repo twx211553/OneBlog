@@ -23,7 +23,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @AutoConfigureMockMvc
 public class BaseJunitTest {
 
-    protected String host = "http://localhost:8443";
+    protected String host = "";
 
     @Autowired
     protected MockMvc mvc;

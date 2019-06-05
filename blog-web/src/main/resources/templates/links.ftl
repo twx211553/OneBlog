@@ -1,8 +1,8 @@
 <#include "include/macros.ftl">
 <@compress single_line=true>
 <@header title="友情链接 | ${config.siteName}"
-    keywords="${config.siteName},友情链接交换"
-    description="${config.siteName}，一个程序员的个人原创博客，友情链接交换"
+    keywords="${config.siteName}"
+    description="${config.siteName}"
     canonical="/links">
 </@header>
 
@@ -18,9 +18,9 @@
                 <h4 class="custom-title"><i class="fa fa-coffee fa-fw"></i><strong>简单的要求</strong><small> - 简单点，说话的方式简单点</small></h4>
                 <div class="link-info">
                     <ul class="list-unstyled">
-                        <li>本站定位：个人技术类博客</li>
-                        <li>本站作用：写博客、记日志、闲聊扯淡鼓捣技术</li>
-                        <li>本站 <em>优先</em> 选择<kbd>同类原创、内容相近</kbd>的博客或网站，您的站点内容可以为<kbd>技术类</kbd>、<kbd>IT科技</kbd>、<kbd>互联网</kbd>和<kbd>生活</kbd></li>
+                        <li>本站定位：个人生活类博客</li>
+                        <li>本站作用：写生活，发心情</li>
+                        <li>本站 <em>优先</em> 选择<kbd>同类原创、内容相近</kbd>的博客或网站，您的站点内容可以为<kbd>情感</kbd>、<kbd>生活</kbd>、<kbd>计划</kbd>和<kbd>工作</kbd></li>
                         <li>特别提醒：<abbr title="禁止友链的网站">任何包含违反国家法律法规内容的网站、盈利类（赌博）网站，还有相亲类、卖表类的网站、垃圾站统统不做！！！</abbr></li>
                         <li>
                             <blockquote>

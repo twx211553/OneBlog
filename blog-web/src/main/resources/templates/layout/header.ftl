@@ -52,7 +52,7 @@
                                 </#list>
                             <#else>
                                 <li>
-                                    稍等一下， 博主正在快马加鞭的配置~~
+                                    本站无登陆，请留言联系eleven
                                 </li>
                             </#if>
                         </@zhydTag>
@@ -129,7 +129,7 @@
                     </ul>
                     <div class="oauth-line">
                         <span>
-                            Powered by <a href="https://gitee.com/yadong.zhang/JustAuth" target="_blank">JustAuth</a>
+                            Powered by <a href="http://weibo.com/6058932263" target="_blank">微博</a>
                         </span>
                     </div>
                 </div>

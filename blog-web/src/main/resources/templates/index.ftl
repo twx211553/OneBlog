@@ -1,6 +1,6 @@
 <#include "include/macros.ftl">
 <@compress single_line=true>
-<@header title="${config.siteName?if_exists} | 一个程序员的个人博客"
+<@header title="${config.siteName?if_exists} | eleven的博客"
     keywords="${config.homeKeywords?if_exists}"
     description="${config.homeDesc?if_exists}"
     canonical="/${url?if_exists}">
@@ -14,13 +14,13 @@
             <div class="scrolltext">
                 <ul class="list-unstyled" id="notice-box">
                     <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">本站正式启用新域名:<a href="https:/www.zhyd.me" target="_blank"><strong>https:/www.zhyd.me</strong></a></a>
+                        <a href="javascript:void(0)" rel="bookmark">本站正式启用新域名:<a href="http://www.tocj1314.com" target="_blank"><strong>http://www.tocj1314.com</strong></a></a>
                     </li>
                     <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">活了二十多年，没能为祖国、为人民做点什么，每思及此，伤心欲绝。</a>
+                        <a href="javascript:void(0)" rel="bookmark">我一路向北</a>
                     </li>
                     <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">其实我们可以将所有的问题归结为两种：一种是没饭吃饿出来的；一种是吃饱了撑出来的。</a>
+                        <a href="javascript:void(0)" rel="bookmark">离开有你的季节</a>
                     </li>
                 </ul>
             </div>
@@ -121,12 +121,11 @@
                         <div class="clear" style="margin-bottom: 10px"></div>
                         <ul class="list-unstyled list-inline search-hot">
                             <li><strong style="position: relative;top: 2px;color: #999999;">热门搜索：</strong></li>
-                            <li><a class="pointer" rel="external nofollow"><span class="label label-default">Java</span></a></li>
-                            <li><a class="pointer" rel="external nofollow"><span class="label label-primary">Springboot</span></a></li>
-                            <li><a class="pointer" rel="external nofollow"><span class="label label-success">Linux</span></a></li>
-                            <li><a class="pointer" rel="external nofollow"><span class="label label-info">Maven</span></a></li>
-                            <li><a class="pointer" rel="external nofollow"><span class="label label-warning">Bootstrap</span></a></li>
-                            <li><a class="pointer" rel="external nofollow"><span class="label label-danger">阿里云</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-default">情感</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-primary">生活</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-success">计划</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-info">工作</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-warning">其他</span></a></li>
                         </ul>
                     </form>
                 </article>
