@@ -27,7 +27,7 @@ import java.util.Date;
  */
 public class QiniuApiClient extends BaseApiClient {
 
-    private static final String DEFAULT_PREFIX = "elevenBlog/";
+    private static final String DEFAULT_PREFIX = "elevenblog/";
 
     private String accessKey;
     private String secretKey;

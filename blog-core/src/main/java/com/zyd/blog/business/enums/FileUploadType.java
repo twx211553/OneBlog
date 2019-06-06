@@ -8,10 +8,10 @@ package com.zyd.blog.business.enums;
  * @since 1.0
  */
 public enum FileUploadType {
-    COMMON("oneblog/"),
-    QRCODE("oneblog/qrcode/"),
-    SIMPLE("oneblog/article/"),
-    COVER_IMAGE("oneblog/cover/");
+    COMMON("elevenblog/"),
+    QRCODE("elevenblog/qrcode/"),
+    SIMPLE("elevenblog/article/"),
+    COVER_IMAGE("elevenblog/cover/");
 
     private String path;
 
