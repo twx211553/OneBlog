@@ -329,6 +329,6 @@
         return resultArr;
     }
     init_echarts();
-    $("#noticeModal").modal('show');
+    //$("#noticeModal").modal('show');
 </script>
 </@footer>
